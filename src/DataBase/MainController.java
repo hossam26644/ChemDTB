@@ -65,7 +65,7 @@ public class MainController extends Controller {
 		mainFrame.applybtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
             	
-            	FileUploaded message = new FileUploaded();
+            	Message message = new Message();
             	message.setVisible(true);
             	
             	try {

@@ -36,7 +36,7 @@ public class FragmentsController extends Controller {
 						fragmentModel.CompareBySmiles(mainFrame.searchBoxFragments.getText());
 
 					} catch (InvalidSmilesException e) {
-						FileUploaded message = new FileUploaded();
+						Message message = new Message();
 						message.noOfAddedRecords.setText("Invalid Smiles input");
 						message.setVisible(true);
 					};
@@ -53,7 +53,7 @@ public class FragmentsController extends Controller {
 			 try {
 				fragmentModel.CompareByStructure(files[0].getPath());
 			} catch (IOException e) {
-				FileUploaded message = new FileUploaded();
+				Message message = new Message();
 				message.noOfAddedRecords.setText("Invalid input file");
 				message.setVisible(true);
 			}

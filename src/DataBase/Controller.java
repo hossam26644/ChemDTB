@@ -14,7 +14,7 @@ public class Controller {
 	static DatabaseController databaseController;
 	static HomeController homeController;
 	static ImportController importController;
-	static FileUploaded fileUploaded;
+	static Message message;
 	static View view;   
 	static int mouseX;
 	static int mouseY;
@@ -23,7 +23,7 @@ public class Controller {
 	static void set(View inview) {
 		view = inview;
 		mainFrame = view.mainFrame;
-		fileUploaded = view.fileUploaded;
+		message = view.message;
 
 		
 	}

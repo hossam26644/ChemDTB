@@ -2,11 +2,11 @@ package DataBase;
 
 public class View {
 	DataBaseMainFrame mainFrame;
-	FileUploaded fileUploaded;
+	Message message;
 	
 	public View() {
 		mainFrame = getDataBaseMainFrame();
-		fileUploaded = new FileUploaded();
+		message = new Message();
 
 	}
 	
@@ -44,7 +44,7 @@ public class View {
 
 	public void dispose() {
 		mainFrame.dispose();
-		fileUploaded.dispose();
+		message.dispose();
 		
 	}
 }

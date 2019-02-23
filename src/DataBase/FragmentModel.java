@@ -63,7 +63,7 @@ public class FragmentModel extends Model {
 
 			}
 		}catch (SQLException e) {
-			FileUploaded message = new FileUploaded();
+			Message message = new Message();
 			message.noOfAddedRecords.setText("Can't connect to database");
 			message.setVisible(true);
 		} catch (ClassNotFoundException e) {

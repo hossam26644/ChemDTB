@@ -93,7 +93,7 @@ public class DatabaseController extends Controller{
 		mainFrame.exportbtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
         		
-            	FileUploaded message = new FileUploaded();
+            	Message message = new Message();
         		Point p = MouseInfo.getPointerInfo().getLocation();
   			  	message.setLocation(p.x-message.getWidth(), p.y-message.getHeight());
 

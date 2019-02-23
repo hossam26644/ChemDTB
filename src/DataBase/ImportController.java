@@ -24,7 +24,7 @@ public class ImportController extends Controller {
 		 new  FileDrop( mainFrame.dragNDroplbl, new FileDrop.Listener()
 		  {   public void  filesDropped( java.io.File[] files )
 		      {   
-			  FileUploaded message = new FileUploaded();
+			  Message message = new Message();
 			  int noOfAddedRecords = 0;
 
 			  try {

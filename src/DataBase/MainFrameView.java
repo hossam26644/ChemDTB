@@ -817,7 +817,7 @@ public class MainFrameView extends javax.swing.JFrame {
 
         version.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         version.setForeground(new java.awt.Color(100, 100, 76));
-        version.setText("V 1.1");
+        version.setText("Beta Version");
 
         logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/DataBase/Images/Icon.png"))); // NOI18N
 

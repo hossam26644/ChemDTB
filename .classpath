@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="filedrop.jar"/>
+	<classpathentry kind="lib" path="cdk-2.2.jar"/>
+	<classpathentry kind="lib" path="json-20180813.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.24-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

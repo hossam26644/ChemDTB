@@ -1,0 +1,8 @@
+{
+	"Params":{
+		"server":"jdbc:mysql://localhost:3306/chemicals",
+		"userName":"jcmanager",
+		"password":"password",
+		"TableName": "chems"
+		}
+}

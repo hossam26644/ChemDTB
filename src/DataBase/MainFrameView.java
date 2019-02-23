@@ -11,14 +11,14 @@ import java.awt.Color;
  *
  * @author hossam
  */
-public class DataBaseMainFrame extends javax.swing.JFrame {
+public class MainFrameView extends javax.swing.JFrame {
 
     /**
-     * Creates new form DataBaseMainFrame
+     * Creates new form MainFrameView
      */
     int mouseX;
     int mouseY;
-    public DataBaseMainFrame() {
+    public MainFrameView() {
         initComponents();
     }
 

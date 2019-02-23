@@ -10,7 +10,7 @@ import javax.swing.table.JTableHeader;
 
 public class Controller {
 	static ImportModel importModel;
-	static DataBaseMainFrame mainFrame;
+	static MainFrameView mainFrame;
 	static DatabaseController databaseController;
 	static HomeController homeController;
 	static ImportController importController;

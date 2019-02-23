@@ -20,7 +20,7 @@ import org.openscience.cdk.smiles.SmilesParser;
 public class FragmentModel extends Model {
 
 	View view; 
-	DataBaseMainFrame mainFrame;
+	MainFrameView mainFrame;
 	public FragmentModel(View inView) {
 		view = inView;
 		mainFrame = view.mainFrame;

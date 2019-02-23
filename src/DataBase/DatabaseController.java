@@ -16,7 +16,6 @@ import javax.swing.table.TableRowSorter;
 
 
 public class DatabaseController extends Controller{
-	DataBaseMainFrame mainFrame;
 	TableModel tableModel;
 	List<RowFilter<Object,Object>> tableRowFilter = new ArrayList<RowFilter<Object,Object>>();
 	TableRowSorter<TableModel> tableSorter;
@@ -25,7 +24,6 @@ public class DatabaseController extends Controller{
 	DrawMoleculeModel drawMoleculeModel;
 	
 	public DatabaseController() {
-		mainFrame = view.mainFrame;
 		tableModel = mainFrame.dbtable.getModel();
 		tableSorter = new TableRowSorter<TableModel>(tableModel); //to sort rows by clicking on the table header 
 		mainFrame.dbtable.setRowSorter(tableSorter);

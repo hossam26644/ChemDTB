@@ -14,7 +14,7 @@ import org.openscience.cdk.exception.CDKException;
 
 public class FillTableModel extends Model{
 	View view;
-	DataBaseMainFrame mainFrame;
+	MainFrameView mainFrame;
 	JTable dbtable;
 	
 	
